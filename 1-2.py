@@ -1,4 +1,4 @@
-def have_duplicates(row: list):
+def have_duplicates(row):
     return len(row) != len(set(row))
 
 print(have_duplicates([1,6,7,8,9,9]))
