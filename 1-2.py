@@ -1,5 +1,5 @@
 def have_duplicates(row):
-    return len(row) != len(set(row))
+    return len(set(row)) != len(row):
 
 print(have_duplicates([1,6,7,8,9,9]))
 print(have_duplicates([1,2,3,4,5]))
